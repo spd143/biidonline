@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="angularReg">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slick.css">
+</head>
+<body ng-controller="appReg">
+	<div class="registration-back">
+		<div class="text-center">
+			<a href="index.html"><img src="img/logo.png" class="register-logo"></a>
+			<div class="res-log-text">Free Registration ! Register your self to begin Biding or Auctioning</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row register-icons">
+				<div class="col-lg-2 col-md-2">
+					<div class="text-right">
+						<img  src="img/identity.png">
+					</div>
+					<div class="text-left">
+						<img src="img/phone-list.png">
+					</div>
+					<div class="text-right">
+						<img src="img/student.png">
+					</div>
+					<div class="text-left">
+						<img src="img/keyword.png">
+					</div>
+					<div class="text-right">
+						<img src="img/email.png">
+					</div>
+					<div class="text-left">
+						<img src="img/id-card.png">
+					</div>
+				</div>
+				<div class="col-lg-8 col-md-8 registration-form">
+					<div class="row">
+						<div class="col-lg-6 col-md-6">
+							<label>Name</label>
+							<input type="text" ng-model="reg.name" class="form-control">
+						</div>
+						<div class="col-lg-6 col-md-6">
+							<label>Email ID</label>
+							<input type="text" ng-model="reg.emailId" class="form-control">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6">
+							<label>Mobile Number</label>
+							<input type="text" ng-model="reg.mobileNo" class="form-control">
+							<label>Password</label>
+							<input type="text" ng-model="reg.password" class="form-control">
+						</div>
+						<div class="col-lg-6 col-md-6">	
+							<label>User Name</label>
+							<input type="text" ng-model="reg.userName" class="form-control">
+							<label>Confirm Password</label>
+							<input type="text" ng-model="reg.conPassword" class="form-control">
+						</div>
+					</div>
+					<div class="text-center">
+						<button type="button" class="btn register-btn">
+							Register
+						</button>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-2">
+					<div class="text-left">
+						<img  src="img/identity.png">
+					</div>
+					<div class="text-right">
+						<img src="img/phone-list.png">
+					</div>
+					<div class="text-left">
+						<img src="img/student.png">
+					</div>
+					<div class="text-right">
+						<img src="img/keyword.png">
+					</div>
+					<div class="text-left">
+						<img src="img/email.png">
+					</div>
+					<div class="text-right">
+						<img src="img/id-card.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="js/juqery-3.3.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/source.js"></script>
+</body>
+</html>	

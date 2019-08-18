@@ -1,0 +1,580 @@
+html, body {
+	font-family: 'Dosis', sans-serif;
+}
+
+/* Navigation Bar ----*/
+.social-bar {
+	padding: 0px;
+	list-style: none;
+	margin:0px;
+}
+
+.social-bar > li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    margin: 0px 7px;
+    padding: 16px;
+    box-shadow: 1px 4px 0px 0px #0000005c;
+    text-align: center;
+}
+
+.social-bar > li > a > i{
+    font-size: 20px;
+}
+
+.social-bar > li:nth-child(1) > a > i {
+	color:#3b5998;
+}
+
+.social-bar > li:nth-child(2) > a > i {
+    color:#f00;
+}
+
+.social-bar > li:nth-child(3) > a > i {
+    color:#ea4335;
+}
+
+.social-bar > li:nth-child(4) > a > i {
+    color:#6faedc;
+}
+
+.user-login-strip{
+	background:#03A9F4; 
+    color: #fff;
+    clear: both;
+    font-size: 1.18em;
+    padding: 5px 20px;
+}
+
+.login-btn {
+	background: #ffbb3e;
+    font-size: 16px;
+    color: #fff;
+    padding: 6px 20px;
+    border-radius: 16px;
+}
+
+.mod-nav {
+    background: #fff;
+}
+
+.mod-nav {
+    z-index: 9;
+    position: absolute;
+    width: 100%;
+}
+
+.mod-nav .navbar-right > li > a {
+    color: #000;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-top: none;
+    transition: 0.4s;
+    font-weight: 600;
+}
+
+.mod-nav .navbar-brand{
+    padding: 0px;
+}
+
+.mod-nav .navbar-brand img{
+    width: 300px;
+}
+
+.mod-nav .navbar-right > li > a:hover, .mod-nav .navbar-right > li > a:focus{
+	background: #ffbb3e;
+	color:#fff;
+}
+
+.mod-dropdown .dropdown-menu {
+	padding: 0px;
+}
+
+.mod-dropdown .dropdown-menu > li > a {
+	font-size: 20px;
+	padding: 10px 20px;
+	transition: 0.4s;
+}
+
+.mod-dropdown .dropdown-menu > li > a:hover, .mod-dropdown .dropdown-menu > li > a:focus{
+	background: #ffbb3e;
+	color:#fff;
+}
+
+.banner-slider > div {
+    height: 600px;
+}
+
+.banner-slider img {
+    width: 100%;
+}
+
+.prev-banner, .next-banner {
+    position: absolute;
+    top:50%;
+    z-index: 9;
+}
+
+.next-banner {
+    right:0px;
+}
+
+.title-strip {
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    background: #ffbb3e;
+    color: #fff;
+}
+
+.bid-service-cont {
+    display: flex;
+    text-align: center;
+}
+
+.bidder-side {
+    width: 50%;
+    padding:30px;
+    position: relative;
+    background-color: rgba(3, 169, 244, 0.72);
+    display: inline-block;
+}
+
+.bidder-side > img {
+    width: 200px;
+    margin: 40px auto;
+    display: block;
+}
+
+.bidder-side > h2 {
+    color:#fff;
+}
+
+.bidder-side:hover .overlay-on-bid{
+    width: 100%;
+    padding: 162px 0px;
+}
+
+.bidder-btn {
+    font-size: 28px;
+    padding: 14px 30px;
+    background: #fff;
+    transition: 0.3s;
+    color: rgba(3, 169, 244, 0.72);
+    border: 3px solid rgba(3, 169, 244, 0.72);
+}
+
+.bidder-btn:hover, .bidder-btn:focus {
+    background: rgba(3, 169, 244, 0.72);
+    color:#fff;
+    outline:none;
+}
+
+.bidder-btn a {
+    color:rgba(3, 169, 244, 0.72);
+}
+
+.bidder-btn a:hover,  .bidder-btn a:focus{
+    color:#fff;
+    text-decoration: none;
+    outline:none;
+}
+
+.overlay-on-bid{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 1.2s ease;
+} 
+
+.auctioner-side{
+    background-color: rgba(255, 106, 184, 0.5294117647058824);
+    width: 50%;
+    padding:30px;
+    position: relative;
+    display: inline-block;
+}
+
+.auctioner-side:hover .overlay-on-aux {
+    width: 100%;
+    left: 0;
+    padding: 162px 0px;
+
+}
+
+.auctioner-side > h2 {
+    color:#fff;
+}
+
+.auctioner-side  > img {
+     width: 200px;
+     margin: 40px auto;
+     display: block;
+}
+
+.auxtion-btn {
+    font-size: 28px;
+    padding: 14px 30px;
+    background: #fff;
+    transition: 0.3s;
+    color: rgba(255, 106, 184, 0.5294117647058824);
+    border: 3px solid rgba(255, 106, 184, 0.5294117647058824);
+}
+
+.auxtion-btn:hover, .auxtion-btn:focus{
+    background:rgba(255, 106, 184, 0.5294117647058824);
+    color:  #fff;
+    outline: none;  
+}
+
+.auxtion-btn a {
+    color: rgba(255, 106, 184, 0.5294117647058824);
+}
+
+.auxtion-btn a:hover, .auxtion-btn a:focus {
+    color: rgba(255, 106, 184, 0.5294117647058824);
+    text-decoration: none;
+    outline: none;
+}
+
+.explore-btn {
+    background: transparent;
+    border: 3px solid #fff;
+    font-size: 29px;
+    padding: 8px 45px;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.explore-btn:hover, .explore-btn:focus{
+    background:#fff; 
+    color:#000;
+}
+
+
+.overlay-on-aux{
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #fff;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition:0.8s ease;
+} 
+
+.about-us-blocks {
+    margin-bottom: 16px;
+}
+
+.about-us-blocks > div {
+    text-align: center;
+}
+
+.about-us-blocks img {
+    margin: 0px auto;
+    width: 100px;
+}
+
+.about-us-blocks  h3{
+    font-weight: bold;
+}
+
+.about-us-blocks  h3, .about-us-blocks h4 {
+    color: #fff;
+}
+
+.product-row {
+	margin-bottom: 45px;
+}
+
+.about-us {
+    background:#ff4f4f;
+    padding: 30px;
+}
+
+.main-intro {
+     text-align: center;
+    color: #FFf;
+    padding: 0px 80px;
+    margin-bottom: 50px;
+}
+
+.faqs-back {
+    background: #3393c6;
+    padding: 30px;
+}
+
+/* Navigation Bar ends here */
+
+/* Our Product */
+
+.product-row > div > img {
+	width: 80px;
+}
+
+.product-row > div > h2 {
+	color: #03a9f4;
+    font-weight: 600;
+}
+
+.desc-cont {
+	color: #fff;
+    font-size: 20px;
+}
+
+.apply-now {
+	margin: 10px 0px;
+    background: transparent;
+    border: 2px solid #ffbb3e;
+    padding: 10px 38px;
+    border-radius: 0px;
+    font-weight: 600;
+    transition: 0.3s;
+    color: #ffbb3e;
+    font-size: 20px;
+}
+/* Our Product ends here*/
+
+
+/* About Us */
+
+.aboutus-back {
+	background: linear-gradient(0deg,#00000078,#00000087), url(../img/about_us.jpg);
+    width: 100%;
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 25px 10px;
+}
+
+.welcome-txt {
+	color:#ffbb3e;
+	font-weight: 600;
+}
+
+.company-desc{
+	padding: 0px 120px;
+    color: #fff;
+}
+
+.founders {
+	text-align: center;
+}
+
+.about-us .slick-slide {
+	margin: 0px 10px;
+}
+
+.img-container{
+	width: 140px ;
+    height: 140px;
+    margin: 10px;
+    display: inline-block;
+    overflow: hidden;
+    background: #f3f6f9;
+    border-radius: 50%;
+}
+
+.founders img {
+	    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.prev-btn {
+	top: 50%;
+    position: absolute;
+    left: 0px;
+    background: #03a9f4;
+    color: #ffbb3e;
+    border-radius: 50%;
+    font-size: 24px;
+    z-index: 9999;
+}
+
+.next-btn {
+	position: absolute;
+    right: 0px;
+    top: 50%;
+    border-radius: 50%;
+    background: #03a9f4;
+    color: #ffbb3e;
+    font-size: 24px;
+    z-index: 9999;
+}
+
+.founder-info > h2 {
+	color: #03a9f4;
+	font-weight: bold;
+}
+
+
+.founder-info > h3 {
+	color:#ffbb3e;
+	font-weight: bold;
+}
+
+.founder-info > h4 {
+	color:#fff;
+}
+/* About Us ends here*/
+
+/* Follow Us */
+
+.no-pads{
+    padding: 0px;   
+}
+
+.follow-back {
+    background: rgba(144, 33, 243, 0.8392156862745098);
+    padding: 107px 232px 106px 68px
+
+}
+
+.follow-back label {
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.follow-back input, .follow-back textarea {
+    margin-bottom: 8px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    color: #fff;
+}
+
+.follow-back input::-webkit-input-placeholder , .follow-back textarea::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.follow-back input:-ms-input-placeholder , .follow-back textarea:-ms-input-placeholder{
+    color: #fff;
+}
+
+.follow-back input::placeholder , .follow-back textarea::placeholder{
+    color: #fff;
+}
+
+.submit-btn {
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+    transition: 0.5s;
+    border-radius: 0px;
+}
+
+.submit-btn:hover,  .submit-btn:focus{
+    background: #fff;
+    color:#000;
+}
+
+/* Follow Us ends here*/
+
+
+/* Reach Us */
+
+.reach-us-back {
+    background: #ffbb3e;
+    padding: 40px 0px;
+}
+
+.reach-us-txt {
+    color: #fff;
+    font-size: 24px;
+}
+
+/* Reach Us ends here*/
+
+
+/* Login */
+
+.login-head-back {
+    background: #ffbb3e;
+    text-align: center;
+    color:#fff;
+}
+
+.login-title {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.log-body-back {
+    background:#64cfff;
+}
+
+.log-info label {
+    font-size:16px;
+    font-weight: 500;
+    color:#fff;
+}
+
+.log-info input {
+    border:1px solid #fff;
+    border-radius: 0px;
+    background: transparent;
+    margin-bottom: 16px;
+}
+
+.log-texts{
+    color:#fff;
+}
+
+/* Login ends here*/
+
+
+/* Registration */
+
+.registration-back {
+    padding: 10px 0px;
+    background: #ffed52;
+}
+
+.register-logo {
+    width: 420px;
+}
+
+.res-log-text{
+    font-size: 18px;
+}
+
+.register-icons img {
+    margin:10px 0px;
+}
+
+.registration-form {
+    margin-top: 65px;
+}
+
+
+.registration-form label  {
+    margin-bottom: 8px;
+}
+
+.registration-form input {
+    margin-bottom: 12px;
+}
+
+.register-btn {
+    background: #fff;
+    border: 1px solid #000;
+    font-size: 16px;
+    border-radius: 0px;
+    margin: 15px 0px;
+}
+
+/* Registration ends here*/
